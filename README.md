@@ -50,6 +50,22 @@ kubectl get nodes
 kubeadm token create --print-join-command (Get Token for Joining workers to the cluster)
 
 
+#  Install Helm 
+    curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+    chmod +x get_helm.sh
+    ./get_helm.sh
+
+    
+
+
+
+
+
 
 
 #  Install Nginx Ingres
+
+If your Deploy Nginx Ingress in Single node on Master you need to run below comand
+
+
+
