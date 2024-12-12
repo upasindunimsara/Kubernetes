@@ -1,6 +1,6 @@
-# Kubernetes
+# Install Kubernets
 
-Install Kubernets
+
 
 /// Install and Configure Containerd \\\
 
