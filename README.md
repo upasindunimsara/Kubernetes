@@ -48,3 +48,8 @@ Reboot the server
 
 kubectl get nodes
 kubeadm token create --print-join-command (Get Token for Joining workers to the cluster)
+
+
+
+
+#  Install Nginx Ingres
