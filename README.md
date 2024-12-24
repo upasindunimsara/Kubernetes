@@ -35,6 +35,9 @@ Reboot the server
 
 /// Final Configurations  \\\
 
+    sysctl -w net.ipv4.ip_forward=1
+    sysctl -p
+    
     kubeadm init --control-plane-endpoint=172.16.250.216 --node-name controller --pod-network-cidr=10.244.0.0/16 (In this need to give server hostname and master server IP Before Run this make sure disable the swap)
     
     mkdir -p $HOME/.kube
